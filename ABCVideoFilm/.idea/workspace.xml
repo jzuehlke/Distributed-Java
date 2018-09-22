@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f26fe28-5076-4b53-a1c4-205807bafc20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/DrinkAdvisor_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/NameMVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/SecondServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/SimpleServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ABCVideoFilm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABCVideoFilm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/jakezuehlke/abcvideofilm/controller/VideoSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/jakezuehlke/abcvideofilm/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/us/jakezuehlke/abcvideofilm/model/VideoLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/videolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/artifacts/DrinkAdvisor_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/DrinkAdvisor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/WEB-INF/classes/conf/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/WEB-INF/classes/us/mattgreen/beer/controller/BeerSelectionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/WEB-INF/classes/us/mattgreen/beer/model/BeerExpert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/WEB-INF/glassfish-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/artifacts/DrinkAdvisor_war_exploded/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/production/DrinkAdvisor/conf/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/production/DrinkAdvisor/us/mattgreen/beer/controller/BeerSelectionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/out/production/DrinkAdvisor/us/mattgreen/beer/model/BeerExpert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/src/conf/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/src/us/mattgreen/beer/controller/BeerSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/src/us/mattgreen/beer/model/BeerExpert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/test/edu/wctc/distjava/ch3/model/BeerExpertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/WEB-INF/glassfish-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrinkAdvisor/web/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/.idea/artifacts/NameMVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/NameMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/WEB-INF/classes/us/mattgreen/controller/NameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/WEB-INF/classes/us/mattgreen/model/Name.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/WEB-INF/classes/us/mattgreen/model/NameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/nameDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/artifacts/NameMVC_war_exploded/nameList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/production/NameMVC/us/mattgreen/controller/NameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/production/NameMVC/us/mattgreen/model/Name.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/out/production/NameMVC/us/mattgreen/model/NameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/src/us/mattgreen/controller/NameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/src/us/mattgreen/model/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/src/us/mattgreen/model/NameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/web/nameDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NameMVC/web/nameList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/.idea/artifacts/SimpleServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/SecondServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/out/artifacts/SimpleServlet_war_exploded/WEB-INF/classes/edu/wctc/simple/SimpleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/out/artifacts/SimpleServlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/out/artifacts/SimpleServlet_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/out/production/SimpleServlet/edu/wctc/simple/SimpleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/src/edu/wctc/simple/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondServlet/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/artifacts/SimpleServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/SimpleServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/out/artifacts/SimpleServlet_war_exploded/WEB-INF/classes/edu/wctc/simple/SimpleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/out/artifacts/SimpleServlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/out/artifacts/SimpleServlet_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/out/production/SimpleServlet/edu/wctc/simple/SimpleServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/edu/wctc/simple/FindColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/edu/wctc/simple/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/edu/wctc/simple/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/edu/wctc/simple/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/web/SimpleJSP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentdata/edu/wctc/studentdata/FindColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentdata/edu/wctc/studentdata/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentdata/edu/wctc/studentdata/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentdata/edu/wctc/studentdata/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/FirstWebApp_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/FirstWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondServlet/SimpleServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/movieposters/armyofdarkness.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/movieposters/armyofdarkness.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/movieposters/atalkingcat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/movieposters/atalkingcat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/movieposters/blackdynamite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/movieposters/blackdynamite.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/movieposters/miamiconnection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/movieposters/miamiconnection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/movieposters/nukie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/movieposters/nukie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/videosdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/videosdetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/videosdetails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/videoslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/videoslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstWebApp/web/videoslist.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1478713865">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ABCVideoFilm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ABCVideoFilm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f26fe28-5076-4b53-a1c4-205807bafc20" name="Default Changelist" comment="" />
+      <created>1537412496656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537412496656</updated>
+      <workItem from="1537412498963" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="175000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ABCVideoFilm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
