@@ -17,13 +17,13 @@
 
     <body>
         <div id="banner">
-            <img src="logo.jpg" alt="logo">
+            <img src="images/logo.jpg" alt="logo">
         </div>
 
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="videolist.jsp">Videos List</a></li>
+                <li><a href="videolist.jsp">Video List</a></li>
                 <li><a href="cart.jsp">Cart</a></li>
             </ul>
         </nav>
@@ -37,11 +37,13 @@
             NumberFormat formatter = NumberFormat.getCurrencyInstance();
 
             //begin loop through video arraylist
-            for (Video video : videos){%>
+            for (Video video : videos)
+            {
+        %>
         <div class="video-repeater clearfix">
             <div class="poster">
-                <a target="_blank" href="movieposters/<%=video.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg">
-                    <img src="movieposters/<%=video.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg"
+                <a target="_blank" href="images/movieposters/<%=video.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg">
+                    <img src="images/movieposters/<%=video.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg"
                          alt="<%=video.getTitle()%>" height="400">
                 </a>
             </div>
@@ -60,13 +62,15 @@
                     <span class="bold">Runtime: </span><%=video.getRuntime()%> minutes<br>
                 </p>
                 <form method="post" action="VC">
-                    <span name="buyvideo" hidden><%=video.getTitle()%></span>
-                    <button type="submit" class="addtocart bold" name="buyvideo">
+                    <input name="title" value="<%=video.getTitle()%>" hidden>
+                    <button type="submit" class="addtocart bold" value="VC">
                         Add to Cart: <%=formatter.format(video.getPrice())%>
                     </button>
                 </form>
             </div>
         </div>
-        <%}%>
+        <%
+            }
+        %>
     </body>
 </html>

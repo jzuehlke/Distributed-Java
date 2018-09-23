@@ -1,4 +1,5 @@
-body { background: cyan url("background.jpg") no-repeat fixed center; }
+/*background image*/
+body { background: cyan url("images/background.jpg") no-repeat fixed center; }
 
 /*logo*/
 #banner img { height: 100px; width: 200px; }
@@ -16,17 +17,26 @@ nav ul li a:hover { background-color: magenta; padding-top: 5px; padding-bottom:
 .clearfix {content: ""; clear: both; display: table; }
 
 /*home page styles*/
-#home-intro { color: magenta; border: 5px solid cyan; background-color: midnightblue; padding: 5px; }
+#home-intro { width: 50%; color: magenta; border: 5px solid cyan; background-color: midnightblue; padding: 5px; }
 
 /*videolist styles*/
-.video-repeater { margin-bottom: 20px; border: 5px solid cyan; padding: 5px;
-    color: magenta; background-color: midnightblue;}
+.video-repeater { margin-bottom: 20px; border: 5px solid cyan; padding: 5px; color: magenta;
+    background-color: midnightblue;}
 .video-repeater:hover { border: 5px solid magenta; }
-.video-repeater .poster { height: 100%; width: auto; float: left; overflow: auto; }
-.video-repeater .detail-header { color: magenta; padding: 5px; text-decoration: underline; margin-top: 0; }
-.video-repeater .details { padding: 15px 15px 15px 400px; text-align: center; }
+.details { padding: 15px 15px 15px 400px; text-align: center; }
+.poster { height: 100%; width: auto; float: left; overflow: auto; }
+
+/*styles used in both videolist and cart pages*/
+.detail-header { padding: 5px; text-decoration: underline; margin-top: 0; }
 .addtocart { text-align: center; border: 3px inset cyan; color: cyan; background-color: magenta; cursor: pointer;
-    padding: 5px 5px 5px 5px; }
+    padding-top: 5px; padding-bottom: 5px; }
 
 /*cart page items*/
-#cartlist { border: 5px solid cyan; padding: 5px; color: magenta; background-color: midnightblue; }
+.cartlist { width: 50%; border: 5px solid cyan; padding: 5px; color: magenta; background-color: midnightblue; }
+.cartlist:hover { border: 5px solid magenta; }
+.cartlist a:link { color: cyan; }
+.cartlist a:visited { color: yellow; }
+.cartlist a:hover { color: magenta; }
+.cartlist a:active { color: yellow; }
+.poster-thumb {height: 100%; width: auto; float: right; overflow: auto; }
+.cart-details { }

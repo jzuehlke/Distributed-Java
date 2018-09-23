@@ -13,13 +13,13 @@
     </head>
     <body>
         <div id="banner">
-            <img src="logo.jpg" alt="logo">
+            <img src="images/logo.jpg" alt="logo">
         </div>
 
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="videolist.jsp">Videos List</a></li>
+                <li><a href="videolist.jsp">Video List</a></li>
                 <li><a href="cart.jsp">Cart</a></li>
             </ul>
         </nav>

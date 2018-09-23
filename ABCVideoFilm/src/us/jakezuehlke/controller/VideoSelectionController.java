@@ -1,6 +1,7 @@
 package us.jakezuehlke.controller;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,14 +21,15 @@ public class VideoSelectionController extends HttpServlet
 
         // parameters are name attributes in view pages
         // Here we're retrieving form content from videolist.jsp
-        String c = request.getParameter("buyvideo");
+        String title = request.getParameter("title");
 
         // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
         VideoLibrary vl = new VideoLibrary();
 
         // Always a good idea to trim and/or validate input data
-        List result = vl.findTitles(c.trim());
+        List <Video> result = new ArrayList();
+            result.add(vl.getVideoByTitle(title.trim()));
 
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on

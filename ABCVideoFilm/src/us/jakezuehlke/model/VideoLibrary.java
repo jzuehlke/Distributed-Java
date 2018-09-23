@@ -62,7 +62,7 @@ public class VideoLibrary
                     1000000, 83, 12.77)
             );
 
-    public Video getVideo(String title)
+    public Video getVideoByTitle(String title)
     {
         Video theVideo = null;
 
