@@ -4,12 +4,20 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>us.jakezuehlke.controller.VideoSelectionController</servlet-name>
-        <servlet-class>us.jakezuehlke.controller.VideoSelectionController</servlet-class>
+        <servlet-name>VideoFilm</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.VideoFilm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddToCart</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.AddToCart</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>us.jakezuehlke.controller.VideoSelectionController</servlet-name>
-        <url-pattern>/VC</url-pattern>
+        <servlet-name>VideoFilm</servlet-name>
+        <url-pattern>/videolist.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddToCart</servlet-name>
+        <url-pattern>/cart.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

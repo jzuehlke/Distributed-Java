@@ -23,7 +23,7 @@
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="videolist.jsp">Video List</a></li>
+                <li><a href="videolist.do">Video List</a></li>
                 <li><a href="cart.jsp">Cart</a></li>
             </ul>
         </nav>
@@ -32,9 +32,8 @@
         <br>
         <%
             //variables for ArrayList of Videos and number formatter to US dollars
-            VideoLibrary vl = new VideoLibrary();
-            List<Video> videos = vl.getAllTitles();
             NumberFormat formatter = NumberFormat.getCurrencyInstance();
+            List <Video> videos = (List) request.getAttribute("videos");
 
             //begin loop through video arraylist
             for (Video video : videos)
@@ -61,9 +60,9 @@
                     <span class="bold">Budget: </span><%=formatter.format(video.getBudget())%><br>
                     <span class="bold">Runtime: </span><%=video.getRuntime()%> minutes<br>
                 </p>
-                <form method="post" action="VC">
+                <form method="get" action="cart.do">
                     <input name="title" value="<%=video.getTitle()%>" hidden>
-                    <button type="submit" class="addtocart bold" value="VC">
+                    <button type="submit" class="addtocart bold">
                         Add to Cart: <%=formatter.format(video.getPrice())%>
                     </button>
                 </form>

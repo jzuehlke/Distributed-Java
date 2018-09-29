@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="videolist.jsp">Video List</a></li>
+                <li><a href="videolist.do">Video List</a></li>
                 <li><a href="cart.jsp">Cart</a></li>
             </ul>
         </nav>

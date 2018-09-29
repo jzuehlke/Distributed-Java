@@ -1,22 +1,22 @@
 package us.jakezuehlke.controller;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import us.jakezuehlke.model.*;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import us.jakezuehlke.model.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-public class VideoSelectionController extends HttpServlet
+public class AddToCart extends HttpServlet
 {
     private static final String CART_PAGE = "cart.jsp";
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
         response.setContentType("text/html");
 
         // parameters are name attributes in view pages
@@ -28,8 +28,8 @@ public class VideoSelectionController extends HttpServlet
         VideoLibrary vl = new VideoLibrary();
 
         // Always a good idea to trim and/or validate input data
-        List <Video> result = new ArrayList();
-            result.add(vl.getVideoByTitle(title.trim()));
+        List<Video> result = new ArrayList();
+        result.add(vl.getVideoByTitle(title.trim()));
 
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
@@ -38,18 +38,7 @@ public class VideoSelectionController extends HttpServlet
 
         // This object lets you forward both the request and response
         // objects to a destination page
-        RequestDispatcher view =
-                request.getRequestDispatcher(CART_PAGE);
+        RequestDispatcher view = request.getRequestDispatcher(CART_PAGE);
         view.forward(request, response);
     }
-
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Returns a short description of the servlet.
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Main Controller";
-    }// </editor-fold>
 }

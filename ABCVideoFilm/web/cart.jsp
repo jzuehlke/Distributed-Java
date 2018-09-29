@@ -9,6 +9,12 @@
 <%@ page import="us.jakezuehlke.model.*" %>
 <%@ page import="java.text.NumberFormat" %>
 <%@ page import="java.util.List" %>
+<%
+    //cookie stuff
+    Cookie cartVideos = new Cookie("cartVideos", request.getParameter("title"));
+    cartVideos.setMaxAge(60*60*24);
+    response.addCookie( cartVideos );
+%>
 <html>
     <head>
         <title>Cart</title>
@@ -23,13 +29,15 @@
         <nav>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="videolist.jsp">Video List</a></li>
+                <li><a href="videolist.do">Video List</a></li>
                 <li><a href="cart.jsp">Cart</a></li>
             </ul>
         </nav>
 
         <h2 class="main-header">Add A Classic To Your Video Library</h2>
+        <div class="cartlist clearfix">
         <%
+            //look for videos to add to cart, throw exception for having none
             try
             {
                 NumberFormat formatter = NumberFormat.getCurrencyInstance();
@@ -37,7 +45,6 @@
                 for(Video v : videos)
                 {
         %>
-        <div class="cartlist clearfix">
             <div class="poster-thumb">
                 <a target="_blank" href="images/movieposters/<%=v.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg">
                     <img src="images/movieposters/<%=v.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg"
@@ -49,19 +56,20 @@
                 <%=v.getOverview()%><br><br>
                 <%=formatter.format(v.getPrice())%><br><br>
             </div>
-            <button type="button" class="addtocart bold">Confirm Purchase</button>
-        </div>
+
         <%
                 }
+        %>
+            <button type="button" class="addtocart bold">Confirm Purchase</button>
+        <%
             }
             catch(NullPointerException e)
             {
         %>
-            <div class="cartlist">
-                Looks like you have nothing in your cart! Shop our <a href="videolist.jsp">Video List</a> page!
-            </div>
+            Looks like you have nothing in your cart! Shop our <a href="videolist.do">Video List</a> page!
         <%
             }
         %>
+        </div>
     </body>
 </html>

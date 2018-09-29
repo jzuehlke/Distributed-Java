@@ -53,4 +53,10 @@ public class Video
     public void setRuntime(int runtime) { this.runtime = runtime; }
     public double getPrice() { return price; }
     public void setPrice(double price) { this.price = price; }
+
+    @Override
+    public String toString()
+    {
+        return title + "," + price;
+    }
 }
