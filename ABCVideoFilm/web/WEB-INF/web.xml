@@ -4,20 +4,45 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>VideoFilm</servlet-name>
+        <servlet-name>index</servlet-name>
         <servlet-class>us.jakezuehlke.controller.VideoFilm</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AddToCart</servlet-name>
-        <servlet-class>us.jakezuehlke.controller.AddToCart</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>VideoFilm</servlet-name>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>videos</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.Videos</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>videos</servlet-name>
         <url-pattern>/videolist.do</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>cart</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.Cart</servlet-class>
+    </servlet>
     <servlet-mapping>
-        <servlet-name>AddToCart</servlet-name>
+        <servlet-name>cart</servlet-name>
         <url-pattern>/cart.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cartPlace</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.CartPlace</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartPlace</servlet-name>
+        <url-pattern>/cartplace.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>bill</servlet-name>
+        <servlet-class>us.jakezuehlke.controller.Bill</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bill</servlet-name>
+        <url-pattern>/bill.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

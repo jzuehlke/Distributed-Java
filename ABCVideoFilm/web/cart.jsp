@@ -9,16 +9,11 @@
 <%@ page import="us.jakezuehlke.model.*" %>
 <%@ page import="java.text.NumberFormat" %>
 <%@ page import="java.util.List" %>
-<%
-    //cookie stuff
-    Cookie titles = new Cookie("titles", request.getParameter("title"));
-    titles.setMaxAge(60*60*24);
-    response.addCookie( titles );
-%>
+<%@ page import="java.util.Iterator" %>
 <html>
     <head>
         <title>Cart</title>
-        <link rel="stylesheet" href="site.css" type="text/css">
+        <link rel="stylesheet" href="css/site.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
@@ -31,49 +26,59 @@
             <ul>
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="videolist.do">Video List</a></li>
-                <li><a href="cart.jsp">Cart</a></li>
+                <li><a href="cart.do">Cart</a></li>
             </ul>
         </nav>
 
-        <h2 class="main-header">
-            Add A Classic To Your Video Library &nbsp;
+        <h2 class="main-header">Add A Classic To Your Video Library</h2>
 
-            <!-- Trigger/Open The Modal -->
-            <button type="button" id="myBtn" class="addtocart bold">Confirm Purchase</button>
-        </h2>
+        <div id="wrapper">
+            <form action="bill.do">
+                <div class="cartlist clearfix">
+                <%
+                    double total = 0;
+                    NumberFormat formatter = NumberFormat.getCurrencyInstance();
 
-        <div class="cartlist clearfix">
-        <%
-            //look for videos to add to cart, throw exception for having none
-            try
-            {
-                NumberFormat formatter = NumberFormat.getCurrencyInstance();
-                List <Video> videos = (List)request.getAttribute("cart");
-                for(Video v : videos)
-                {
-        %>
-            <div class="poster-thumb">
-                <a target="_blank" href="images/movieposters/<%=v.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg">
-                    <img src="images/movieposters/<%=v.getTitle().replaceAll("[^a-zA-Z]+", "").toLowerCase()%>.jpg"
-                         alt="<%=v.getTitle()%>" width="100">
-                </a>
-            </div>
-            <h3 class="detail-header bold"><%=v.getTitle()%></h3>
-            <div class="cart-details">
-                <%=v.getOverview()%><br><br>
-                <%=formatter.format(v.getPrice())%><br><br>
-            </div>
+                    //look for videos to add to cart, throw exception for having none
+                    try
+                    {
+                        List recs = (List) request.getAttribute("vidLib");
+                        Iterator it = recs.iterator();
 
-        <%
-                }
-            }
-            catch(NullPointerException e)
-            {
-        %>
-            Looks like you have nothing in your cart! Shop our <a href="videolist.do">Video List</a> page!
-        <%
-            }
-        %>
+                        while (it.hasNext())
+                        {
+                            Video video = (Video) it.next();
+                %>
+                    <div class="poster-thumb">
+                        <a target="_blank" href="<%=video.getImage()%>">
+                            <img src="<%=video.getImage()%>"
+                                 alt="<%=video.getTitle()%>" width="100">
+                        </a>
+                    </div>
+                    <h3 class="detail-header bold"><%=video.getTitle()%></h3>
+                    <div class="cart-details">
+                        <%=video.getOverview()%><br><br>
+                        <%=formatter.format(video.getPrice())%><br><br>
+                    </div>
+
+                <%
+                            total += video.getPrice();
+                        }
+                    }
+                    catch(NullPointerException e)
+                    {
+                %>
+                    Looks like you have nothing in your cart! Shop our <a href="videolist.do">Video List</a> page!
+                <%
+                    }
+                %>
+                </div>
+                <div class="cartlist clearfix">
+                    <p>Order Total: <%=formatter.format(total)%></p>
+                    <!-- Trigger/Open The Modal -->
+                    <button type="submit" id="myBtn" class="addtocart bold" value="Complete Order">Confirm Purchase</button>
+                </div>
+            </form>
         </div>
 
         <!-- The Modal -->
@@ -86,35 +91,23 @@
                 </div>
                 <div class="modal-body">
                     <%
-                        Cookie cookie = null;
-                        Cookie[] cookies = null;
-                        cookies = request.getCookies();
-                        if( cookies != null )
+                        List recs = (List) request.getAttribute("vidLib");
+                        Iterator it = recs.iterator();
+
+                        while (it.hasNext())
                         {
+                            Video video = (Video) it.next();
                     %>
-                    <h3>Found Cookies Name and Value</h3>
-                    <%
-                            for (int i = 0; i < cookies.length; i++)
-                            {
-                                cookie = cookies[i];
-                    %>
-                    <p>
-                        Name: <%=cookie.getName()%><br>
-                        Value: <%=cookie.getValue()%><br>
-                    </p>
-                    <%
-                            }
-                        }
-                        else
-                        {
-                    %>
-                    <p>
-                        Looks like you have nothing in your cart!
-                        Shop our <a href="videolist.do">Video List</a> page!
-                    </p>
+                    <h3 class="detail-header bold"><%=video.getTitle()%></h3>
+                    <div class="cart-details">
+                        <%=formatter.format(video.getPrice())%><br><br>
+                    </div>
                     <%
                         }
                     %>
+                    <div class="cart-details">
+                        Order Total: <%=formatter.format(total)%>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <h3>Thank you for choosing ABC VideoFilms!</h3>
