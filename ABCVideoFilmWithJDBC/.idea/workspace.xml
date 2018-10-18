@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f26fe28-5076-4b53-a1c4-205807bafc20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/DBSample_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/model/VideoCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/dataSources/b1936086-32b3-4ee1-896b-73bfb77044e9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/libraries/derby.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/dbex.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cab0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cac1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cad0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cae1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/caf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cb01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cb11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/DBSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/out/production/DBSample/CreateCoffeeDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/out/production/DBSample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/src/CreateCoffeeDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBSample/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/Project5JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/VideosDB/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/src/CreateDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/src/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/src/VideoMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5JDBC/src/Videos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/ABCVideoFilm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/ABCVideoFilm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/CartPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/CartPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/VideoFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/VideoFilm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/Videos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/src/us/jakezuehlke/controller/Videos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/web/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABCVideoFilm/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABCVideoFilm/web/home.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1478713865">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-507370096">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ABCVideoFilm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ABCVideoFilm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ABCVideosDB" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f26fe28-5076-4b53-a1c4-205807bafc20" name="Default Changelist" comment="" />
+      <created>1537412496656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537412496656</updated>
+      <workItem from="1537412498963" duration="175000" />
+      <workItem from="1539826583220" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="196000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="right" id="Database" order="5" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ABCVideoFilm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ABCVideoFilm/ABCVideoFilm.iml" filepath="$PROJECT_DIR$/ABCVideoFilm/ABCVideoFilm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ABCVideoFilmWithJDBC/ABCVideoFilmWithJDBC.iml" filepath="$PROJECT_DIR$/ABCVideoFilmWithJDBC/ABCVideoFilmWithJDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBSample/DBSample.iml" filepath="$PROJECT_DIR$/DBSample/DBSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Distributed-Java.iml" filepath="$PROJECT_DIR$/Distributed-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" filepath="$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ELProject/ELProject.iml" filepath="$PROJECT_DIR$/ELProject/ELProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPEL/JSPEL.iml" filepath="$PROJECT_DIR$/JSPEL/JSPEL.iml" />
       <module fileurl="file://$PROJECT_DIR$/NameMVC/NameMVC.iml" filepath="$PROJECT_DIR$/NameMVC/NameMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project5JDBC/Project5JDBC.iml" filepath="$PROJECT_DIR$/Project5JDBC/Project5JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" filepath="$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondServlet/SecondServlet.iml" filepath="$PROJECT_DIR$/SecondServlet/SecondServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" filepath="$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" />
