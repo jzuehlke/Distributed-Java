@@ -18,7 +18,7 @@ public class CreateDB
             // If the DB already exists, drop the tables.
             dropTables(conn);
 
-            // Build the Beer table.
+            // Build the videos table.
             buildVideosTable(conn);
 
             // Build the Cart table.
@@ -197,9 +197,6 @@ public class CreateDB
                     "83, " +
                     "12.77 )"
             );
-
-
-            System.out.println("Videos table created.");
         } catch (SQLException ex)
         {
             System.out.println("TABLE ERROR: " + ex.getMessage());

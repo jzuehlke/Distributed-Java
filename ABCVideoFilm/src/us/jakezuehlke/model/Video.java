@@ -18,7 +18,7 @@ public class Video
     private double price;
 
     public Video(int videoNum, boolean featured, String title, String image, int year, double rating, String advisory,
-         String overview, String storyline, String country, String language, double budget, int runtime, double price)
+                 String overview, String storyline, String country, String language, double budget, int runtime, double price)
     {
         this.videoNum = videoNum;
         this.featured = featured;
@@ -36,18 +36,73 @@ public class Video
         this.price = price;
     }
 
-    public int getVideoNum() { return videoNum; }
-    public boolean isFeatured() { return featured; }
-    public String getTitle() { return title; }
-    public String getImage() { return image; }
-    public int getYear() { return year; }
-    public double getRating() { return rating; }
-    public String getAdvisory() { return advisory; }
-    public String getOverview() { return overview; }
-    public String getStoryline() { return storyline; }
-    public String getCountry() { return country; }
-    public String getLanguage() { return language; }
-    public double getBudget() { return budget; }
-    public int getRuntime() { return runtime; }
-    public double getPrice() { return price; }
+    public int getVideoNum()
+    {
+        return videoNum;
+    }
+
+    public boolean isFeatured()
+    {
+        return featured;
+    }
+
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public String getImage()
+    {
+        return image;
+    }
+
+    public int getYear()
+    {
+        return year;
+    }
+
+    public double getRating()
+    {
+        return rating;
+    }
+
+    public String getAdvisory()
+    {
+        return advisory;
+    }
+
+    public String getOverview()
+    {
+        return overview;
+    }
+
+    public String getStoryline()
+    {
+        return storyline;
+    }
+
+    public String getCountry()
+    {
+        return country;
+    }
+
+    public String getLanguage()
+    {
+        return language;
+    }
+
+    public double getBudget()
+    {
+        return budget;
+    }
+
+    public int getRuntime()
+    {
+        return runtime;
+    }
+
+    public double getPrice()
+    {
+        return price;
+    }
 }
