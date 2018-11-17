@@ -41,14 +41,14 @@
                         class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
                 <ul class="dropdown-menu dropdown-menu-right">
                     <li>
-                        <form class="form" role="form" action="account.jsp">
+                        <form class="form" role="form" method="post" action="login.do">
                             <div class="form-group">
-                                <input id="name" placeholder="User Name" class="form-control form-control-sm"
-                                       type="text" required="true">
+                                <input name="name" placeholder="User Name" class="form-control form-control-sm"
+                                       type="text" required>
                             </div>
                             <div class="form-group">
-                                <input id="password" placeholder="Password" class="form-control form-control-sm"
-                                       type="password" required="true">
+                                <input name="password" placeholder="Password" class="form-control form-control-sm"
+                                       type="password" required>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-block">Login</button>

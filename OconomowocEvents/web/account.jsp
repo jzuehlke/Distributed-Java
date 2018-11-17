@@ -41,14 +41,14 @@
                         class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
                 <ul class="dropdown-menu dropdown-menu-right">
                     <li>
-                        <form class="form" role="form" action="account.jsp">
+                        <form class="form" role="form" method="post" action="login.do">
                             <div class="form-group">
-                                <input id="name" placeholder="User Name" class="form-control form-control-sm"
-                                       type="text" required="true">
+                                <input name="name" placeholder="User Name" class="form-control form-control-sm"
+                                       type="text" required>
                             </div>
                             <div class="form-group">
-                                <input id="password" placeholder="Password" class="form-control form-control-sm"
-                                       type="password" required="true">
+                                <input name="password" placeholder="Password" class="form-control form-control-sm"
+                                       type="password" required>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-block">Login</button>
@@ -59,85 +59,92 @@
             </div>
         </nav>
 
-        <h1>Welcome to your account area</h1>
-        <div class="container">
-            <form class="form row" action="account.do">
-                <div class="col-sm-5">
-                    <h2>Add Event</h2>
-                    <!-- inputs -->
-                    <div class="form-group">
-                        <input name="eventName" placeholder="Event Name" class="form-control form-control-sm"
-                               type="text" value="<c:out value='${param.eventName}'/>" required/>
-                    </div>
-                    <div class='col-sm-8'>
-                        <div class='form-group'>
-                            <input name='newName' placeholder='New Name'
-                                   class='form-control form-control-sm' type='text'
-                                   value='<c:out value='${param.newName}'/>'/>
+        <% String login = (String) request.getAttribute("login"); %>
+        <c:set var="name" value="<%=login%>"/>
+        <c:if test="${name.length() < 1}">
+            <h1>Please login to access the admin area</h1>
+        </c:if>
+        <c:if test="${name.length() >= 1}">
+            <h1>Welcome to your account area <c:out value="${name}"/></h1>
+            <div class="container">
+                <form class="form row" method="get" action="account.do">
+                    <div class="col-sm-5">
+                        <h2>Add Event</h2>
+                        <!-- inputs -->
+                        <div class="form-group">
+                            <input name="eventName" placeholder="Event Name" class="form-control form-control-sm"
+                                   type="text" value="<c:out value='${param.eventName}'/>" required/>
+                        </div>
+                        <div class='col-sm-8'>
+                            <div class='form-group'>
+                                <input name='newName' placeholder='New Name'
+                                       class='form-control form-control-sm' type='text'
+                                       value='<c:out value='${param.newName}'/>'/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input name="eventDate" placeholder="Event Date" class="form-control form-control-sm"
+                                   type="text" value="<c:out value='${param.eventDate}'/>" required/>
+                        </div>
+                        <div class='col-sm-8'>
+                            <div class='form-group'>
+                                <input name='newDate' placeholder='New Date'
+                                       class='form-control form-control-sm' type='text'
+                                       value='<c:out value='${param.newDate}'/>'/>
+                            </div>
+                        </div>
+
+                        <!-- radio buttons -->
+                        <div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                                <input name="addRemoveEdit"
+                                       class="form-control form-control-sm radio-button radio-inline"
+                                       type="radio" value="add" checked/>Add
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input name="addRemoveEdit"
+                                       class="form-control form-control-sm radio-button radio-inline"
+                                       type="radio" value="remove"/>Remove
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input name="addRemoveEdit"
+                                       class="form-control form-control-sm radio-button radio-inline"
+                                       type="radio" value="edit"/>Edit
+                            </label>
+                        </div>
+
+                        <!-- submit -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block">Submit</button>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <input name="eventDate" placeholder="Event Date" class="form-control form-control-sm"
-                               type="text" value="<c:out value='${param.eventDate}'/>" required/>
-                    </div>
-                    <div class='col-sm-8'>
-                        <div class='form-group'>
-                            <input name='newDate' placeholder='New Date'
-                                   class='form-control form-control-sm' type='text'
-                                   value='<c:out value='${param.newDate}'/>'/>
-                        </div>
-                    </div>
-
-                    <!-- radio buttons -->
-                    <div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active">
-                            <input name="addRemoveEdit"
-                                   class="form-control form-control-sm radio-button radio-inline"
-                                   type="radio" value="add" checked/>Add
-                        </label>
-                        <label class="btn btn-secondary">
-                            <input name="addRemoveEdit"
-                                   class="form-control form-control-sm radio-button radio-inline"
-                                   type="radio" value="remove"/>Remove
-                        </label>
-                        <label class="btn btn-secondary">
-                            <input name="addRemoveEdit"
-                                   class="form-control form-control-sm radio-button radio-inline"
-                                   type="radio" value="edit"/>Edit
-                        </label>
-                    </div>
-
-                    <!-- submit -->
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-block">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <% List list = new EventManager().getEventList(); %>
-        <c:set var="listWrapper" value="<%= new ListWrapper(list) %>"/>
-        <div class="container">
-            <h1>Current Events</h1>
-            <div class="table-responsive row">
-                <table class="table table-striped table-hover">
-                    <tr>
-                        <th>Event Name</th>
-                        <th>Date</th>
-                    </tr>
-                    <c:forEach var='item' items='${listWrapper.list}'>
-                        <c:if test="${!item.completed}">
-                            <tr>
-                                <td><c:out value='${item.name}'/></td>
-                                <td>
-                                    <fmt:parseDate pattern="MM/dd/yyyy" value="${item.date}" var="date"/>
-                                    <c:out value='${date}'/>
-                                </td>
-                            </tr>
-                        </c:if>
-                    </c:forEach>
-                </table>
+                </form>
             </div>
-        </div>
+
+            <% List list = new EventManager().getEventList(); %>
+            <c:set var="listWrapper" value="<%= new ListWrapper(list) %>"/>
+            <div class="container">
+                <h1>Current Events</h1>
+                <div class="table-responsive row">
+                    <table class="table table-striped table-hover">
+                        <tr>
+                            <th>Event Name</th>
+                            <th>Date</th>
+                        </tr>
+                        <c:forEach var='item' items='${listWrapper.list}'>
+                            <c:if test="${!item.completed}">
+                                <tr>
+                                    <td><c:out value='${item.name}'/></td>
+                                    <td>
+                                        <fmt:parseDate pattern="MM/dd/yyyy" value="${item.date}" var="date"/>
+                                        <c:out value='${date}'/>
+                                    </td>
+                                </tr>
+                            </c:if>
+                        </c:forEach>
+                    </table>
+                </div>
+            </div>
+        </c:if>
     </body>
 </html>
