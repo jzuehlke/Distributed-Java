@@ -8,9 +8,6 @@
 <%@ page import="us.jake.EventManager" %>
 <%@ page import="java.util.List" %>
 <%@ page import="us.jake.ListWrapper" %>
-<%@ page import="java.util.Collections" %>
-<%@ page import="us.jake.Event" %>
-<%@ page import="java.util.Comparator" %>
 <%@page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
@@ -34,28 +31,41 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="navbar-nav">
-                <a class="navbar-brand" href="index.jsp">Oconomowoc Happenings</a>
-                <a class="nav-item nav-link" href="events.jsp">Events</a>
-                <a class="nav-item nav-link" href="account.jsp">Login</a>
+            <ul class="nav navbar-nav">
+                <li><a class="navbar-brand" href="index.jsp">Oconomowoc Happenings</a></li>
+                <li><a class="nav-item nav-link" href="events.jsp">Events</a></li>
+                <li><a class="nav-item nav-link" href="account.jsp">Account</a></li>
+            </ul>
+            <div class="dropdown ml-auto">
+                <button type="button" id="dropdownMenu" data-toggle="dropdown"
+                        class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <form class="form" role="form" action="account.jsp">
+                            <div class="form-group">
+                                <input id="name" placeholder="User Name" class="form-control form-control-sm"
+                                       type="text" required="true">
+                            </div>
+                            <div class="form-group">
+                                <input id="password" placeholder="Password" class="form-control form-control-sm"
+                                       type="password" required="true">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block">Login</button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <% List list = new EventManager().getEventList();
-            Collections.sort(list, new Comparator<Event>()
-            {
-                public int compare(Event e1, Event e2)
-                {
-                    return e1.getDate().compareTo(e2.getDate());
-                }
-            });
-        %>
+        <% List list = new EventManager().getEventList(); %>
         <c:set var="listWrapper" value="<%= new ListWrapper(list) %>"/>
         <h1>Current Events</h1>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <tr>
                     <th>Event Name</th>
-                    <th>Date(s)</th>
+                    <th>Date</th>
                 </tr>
                 <c:forEach var='item' items='${listWrapper.list}'>
                     <c:if test="${!item.completed}">

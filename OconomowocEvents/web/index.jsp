@@ -29,10 +29,31 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="navbar-nav">
-                <a class="navbar-brand" href="index.jsp">Oconomowoc Happenings</a>
-                <a class="nav-item nav-link" href="events.jsp">Events</a>
-                <a class="nav-item nav-link" href="account.jsp">Login</a>
+            <ul class="nav navbar-nav">
+                <li><a class="navbar-brand" href="index.jsp">Oconomowoc Happenings</a></li>
+                <li><a class="nav-item nav-link" href="events.jsp">Events</a></li>
+                <li><a class="nav-item nav-link" href="account.jsp">Account</a></li>
+            </ul>
+            <div class="dropdown ml-auto">
+                <button type="button" id="dropdownMenu" data-toggle="dropdown"
+                        class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <form class="form" role="form" action="account.jsp">
+                            <div class="form-group">
+                                <input id="name" placeholder="User Name" class="form-control form-control-sm"
+                                       type="text" required="true">
+                            </div>
+                            <div class="form-group">
+                                <input id="password" placeholder="Password" class="form-control form-control-sm"
+                                       type="password" required="true">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block">Login</button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
             </div>
         </nav>
         <h1>Special Events &amp; Festivals</h1>
@@ -54,16 +75,5 @@
             Whenever you're in the Oconomowoc area, there's always something to do!
             Check out our <a href="events.jsp">Events page</a> for more information!
         </p>
-        <form method="get" action="account.jsp">
-            <div class="form-group">
-                <label for="name">User Name:</label>
-                <input type="text" class="form-control" id="name">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd">
-            </div>
-            <button type="submit" class="btn btn-default">Login</button>
-        </form>
     </body>
 </html>
