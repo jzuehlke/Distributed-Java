@@ -64,28 +64,50 @@
             <form class="form row" action="account.do">
                 <div class="col-sm-5">
                     <h2>Add Event</h2>
+                    <!-- inputs -->
                     <div class="form-group">
                         <input name="eventName" placeholder="Event Name" class="form-control form-control-sm"
                                type="text" value="<c:out value='${param.eventName}'/>" required/>
+                    </div>
+                    <div class='col-sm-8'>
+                        <div class='form-group'>
+                            <input name='newName' placeholder='New Name'
+                                   class='form-control form-control-sm' type='text'
+                                   value='<c:out value='${param.newName}'/>'/>
+                        </div>
                     </div>
                     <div class="form-group">
                         <input name="eventDate" placeholder="Event Date" class="form-control form-control-sm"
                                type="text" value="<c:out value='${param.eventDate}'/>" required/>
                     </div>
+                    <div class='col-sm-8'>
+                        <div class='form-group'>
+                            <input name='newDate' placeholder='New Date'
+                                   class='form-control form-control-sm' type='text'
+                                   value='<c:out value='${param.newDate}'/>'/>
+                        </div>
+                    </div>
 
+                    <!-- radio buttons -->
                     <div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
                         <label class="btn btn-secondary active">
-                            <input name="addRemove"
+                            <input name="addRemoveEdit"
                                    class="form-control form-control-sm radio-button radio-inline"
-                                   type="radio" value="add" checked>Add
+                                   type="radio" value="add" checked/>Add
                         </label>
                         <label class="btn btn-secondary">
-                            <input name="addRemove"
+                            <input name="addRemoveEdit"
                                    class="form-control form-control-sm radio-button radio-inline"
-                                   type="radio" value="remove">Remove
+                                   type="radio" value="remove"/>Remove
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input name="addRemoveEdit"
+                                   class="form-control form-control-sm radio-button radio-inline"
+                                   type="radio" value="edit"/>Edit
                         </label>
                     </div>
 
+                    <!-- submit -->
                     <div class="form-group">
                         <button type="submit" class="btn btn-block">Submit</button>
                     </div>

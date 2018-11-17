@@ -32,21 +32,30 @@ public class EventServlet extends HttpServlet
         //get params
         String eventName = request.getParameter("eventName");
         String eventDate = request.getParameter("eventDate");
-        String addRemove = request.getParameter("addRemove");
+        String ARE = request.getParameter("addRemoveEdit");
+        String newName = request.getParameter("newName");
+        String newDate = request.getParameter("newDate");
 
         //Event Lists
         EventManager events = new EventManager();
         List<Event> result = events.getEventList();
 
         //add event if add was checked
-        if(addRemove.equals("add"))
+        if(ARE.equals("add"))
         {
             result.add(new Event(eventName, eventDate, false));
         }
         //remove event if remove was checked
-        if(addRemove.equals("remove"))
+        if(ARE.equals("remove"))
         {
             result.remove(events.getEventByName(eventName));
+        }
+        //change event name if edit was checked
+        if(ARE.equals("edit"))
+        {
+            int eventIndex = result.indexOf(events.getEventByName(eventName));
+            result.get(eventIndex).setName(newName);
+            result.get(eventIndex).setDate(newDate);
         }
 
         //sort result list by date
