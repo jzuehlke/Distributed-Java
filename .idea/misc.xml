@@ -4,6 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/FirstSpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMovies/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMoviesJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/springmoviesjpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootmoviesjpa/pom.xml" />
       </list>
     </option>
   </component>

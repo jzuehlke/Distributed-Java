@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FirstSpringBoot" />
+        <module name="SpringBootMoviesJPA" />
+        <module name="SpringMovies" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FirstSpringBoot" target="1.8" />
+      <module name="SpringBootMoviesJPA" target="1.8" />
+      <module name="SpringMovies" target="1.8" />
+      <module name="springmoviesjpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

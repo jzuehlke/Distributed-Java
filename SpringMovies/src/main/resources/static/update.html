@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Update Movies</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="add.html">Add</a>
+                <a href="update.html">Update</a>
+                <a href="delete.html">Delete</a>
+            </ul>
+        </nav>
+        <form id="theMovie">
+            <label for="name">Name: <input type="text" name="name" id="name"></label>
+            <label for="genre">Genre: <input type="text" name="genre" id="genre"></label>
+            <label for="rating">Rating: <input type="text" name="rating" id="rating"></label>
+            <div>
+                <button type="button" id="updateMovie">Update Movie</button>
+            </div>
+        </form>
+        <script>
+            $( "#updateMovie" ).on("click" ,function( event ) {
+                var finishedMessage="{";
+                var message = $( "#theMovie" ).serializeArray();
+                $.each(message,function (i,field) {
+                    finishedMessage+="\"" + field.name + "\":\"" + field.value + "\",";
+                });
+                finishedMessage =finishedMessage.substring(0,finishedMessage.length - 1) + "}";
+                var oReq = new XMLHttpRequest();
+                oReq.open("PUT", "/movies/"+ $( "#name" ).val());
+                oReq.setRequestHeader("Content-Type", "application/json");
+                oReq.send(finishedMessage);
+                console.log(finishedMessage);
+            });
+        </script>
+    </body>
+</html>
